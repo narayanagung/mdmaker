@@ -53,6 +53,8 @@ function displayMessage() {
 	var messageDiv = document.getElementById("message");
 	messageDiv.textContent = "Copied!";
 	messageDiv.style.display = "block";
+	messageDiv.style.color = "white";
+	messageDiv.style.fontWeight = "bold";
 	setTimeout(function () {
 		messageDiv.style.display = "none";
 	}, 3000);
