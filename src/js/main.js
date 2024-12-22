@@ -6,7 +6,7 @@ function updatePreview() {
 	if (markdownContent.trim() === "") {
 		markdownPreview.innerHTML = `
             <h2>Live preview</h2>
-            <p class="note">Simple markdown template front matter (put this at the top of your markdown document)</p>
+            <p class="note">Simple markdown front matter (put this at the top of your markdown document)</p>
             <pre id="template">---
 title: Title Of The Article
 description: Brief description
